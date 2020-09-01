@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Private Matter Sharing Model Package</fullName>
+    <types>
+        <members>MatterSharing_Test</members>
+        <members>MatterTeamMemberHandler</members>
+        <members>MatterTeamTriggerHandler</members>
+        <members>ShareMatterRecordFromProcess</members>
+        <members>ShareRecordWithTeamFromProcess</members>
+        <members>SharingUtilities</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>MatterTeamMemberTrigger</members>
+        <members>MatterTeamTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Matter_Sharing_Setting__mdt.Matter_Field__c</members>
+        <members>Matter_Sharing_Setting__mdt.Object_Name__c</members>
+        <members>Matter_Sharing_Setting__mdt.Private_Field__c</members>
+        <members>litify_pm__Matter_Team_Member__c.Sharing_Access__c</members>
+        <members>litify_pm__Matter__c.Private__c</members>
+        <members>litify_pm__Public_Setup__c.Disable_Matter_Team_Sharing_Rules__c</members>
+        <members>litify_pm__Public_Setup__c.Disable_Matter_Team_Sharing__c</members>
+        <members>litify_pm__lit_Note__c.Private__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Matter_Sharing_Setting__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Matter_Sharing_Setting__mdt-Matter Sharing Setting Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>49.0</version>
+</Package>
